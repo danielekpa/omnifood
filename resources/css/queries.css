@@ -1,0 +1,176 @@
+/* For larger iPhone/mobile screens */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0px 5%;
+    }
+
+    .row { padding: 0 2%; }
+
+    .app-screen { width: 50%; }
+}
+
+/* For iPad/Tablet screens on landscape */
+@media only screen and (max-width: 1024px) {
+    body { font-size: 18px; }
+
+    h3 { font-size: 95%; }
+
+    section {  padding: 60px 0; }
+
+    .icon-small {
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .steps-box:first-child { 
+        margin-top: 10px;
+        padding-right: 6%;
+    }
+    
+    .steps-box:last-child { 
+        margin-top: 50px;
+        padding-left: 0%;
+        padding-right: 3%;
+      
+    }
+    
+    .how-to-steps { margin-bottom: 30px; }
+    .how-to-steps:last-of-type{ margin-bottom: 50px;  }
+    .app-screen { width: 50%; }
+    .how-to-steps { margin-bottom: 40px; }
+    .how-to-steps:last-of-type{ margin-bottom: 60px; }
+
+    .city-feature ion-icon {
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .city-feature { font-size: 85%;}
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-price { font-size: 250%; }
+
+    .contact-form {  width: 80%; }
+
+}
+
+/* For larger iPhone/mobile screens or iPad/Tablet in Portrait mode 481px - 768px */
+@media only screen and (max-width: 768px) {
+    body { font-size: 16px; }
+    section {  padding: 30px 0; }
+    h1 { font-size: 180%;}
+    h2 { font-size: 150%;}
+    h3 { font-size: 80%; }
+
+    .hero-text-box { padding: 0px 4%; }
+    .row { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0% 0 4% 0%;
+    }
+    
+    .main-nav { display: none; }
+    .nav-menu-icon {
+        display: inline-block;
+        position: relative;
+        z-index: 9999;
+    }
+    .main-nav {
+        float: left;
+        position: absolute;
+        z-index: 8888;
+        width: 100%;
+        /*height: 100vh;*/
+        margin: 0;
+        margin-left: -4%;
+        background-color: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .main-nav li { display: block; }
+    .main-nav li a:link ,
+    .main-nav li a:visited {
+        display: block;
+        border: none;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+
+    .sticky .main-nav {
+        margin-top: 0px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .sticky .main-nav li a:link, 
+    .sticky .main-nav li a:visited{
+        color: #555;
+        padding: 10px 0;
+    }
+
+    .sticky .nav-menu-icon {margin-top: 10px;}
+
+
+
+    .long-copy {
+        width: 100%;
+        margin: 0;
+    }
+
+    .steps-box:first-child { 
+        text-align: center;
+        padding: 0% ;
+    }
+    /* .steps-box:last-child { padding: 0%; } */
+
+    .app-screen { width: 40% ;}
+    
+    .how-to-steps { margin-bottom: 20px; }
+    .how-to-steps:last-of-type{ margin-bottom: 20px;  }
+
+    .how-to-steps div {
+        margin-right: 15px;
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        font-size: 120%;
+        vertical-align: middle;
+    }
+
+    .how-to-steps p { 
+        padding: 5px;
+    }
+
+
+}
+    
+/* For smaller iPhone/mobile screens */
+@media only screen and (max-width: 480px) {
+    body { font-size: 16px; }
+    section {  padding:  25px 0; }
+    h1 { font-size: 180%;}
+    h2 { font-size: 150%;}
+    h3 { font-size: 80%; }
+
+    .how-to-steps p {
+        font-size: 90%;
+    }
+    
+    .contact-form { width: 100%;}
+
+    .footer-nav li:not(:last-child), 
+    .footer-social-links li:not(:last-child) {
+    margin-right: 10px;
+}
+}
+   
