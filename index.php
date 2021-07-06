@@ -370,12 +370,15 @@
 
                             <?php
 
-                            if($_GET['succcess'] == 1) {
-                                echo " <div class=\"form-messages success\">Thank you! Your message has been sent. </div>" ;
-                            }
+                            if (isset($_GET['success'])) {
 
-                            if($_GET['success'] == -1) {
-                                echo " <div class=\"form-messages error\">Oops! Something went wrong, Please try again.  </div>";
+                                if($_GET['succcess'] == 1) {
+                                    echo " <div class=\"form-messages success\">Thank you! Your message has been sent. </div>" ;
+                                }
+
+                                if($_GET['success'] == -1) {
+                                    echo " <div class=\"form-messages error\">Oops! Something went wrong, Please try again.  </div>";
+                                }
                             }
                             ?>
                         </div>
