@@ -370,12 +370,24 @@
 
                             <?php
 
+<<<<<<< HEAD:index.html
                             if($_GET['succcess'] == 1) {
                                 echo " <div class=\"form-messages success\">Thank you! Your message has been sent. </div>" ;
                             }
 
                             if($_GET['success'] == -1) {
                                 echo " <div class=\"form-messages error\">Oops! Something went wrong, Please try again.  </div>";
+=======
+                            if (isset($_GET['success'])) {
+
+                                if($_GET['succcess'] == 1) {
+                                    echo " <div class=\"form-messages success\">Thank you! Your message has been sent. </div>" ;
+                                }
+
+                                if($_GET['success'] == -1) {
+                                    echo " <div class=\"form-messages error\">Oops! Something went wrong, Please try again.  </div>";
+                                }
+>>>>>>> 39de071fe587fc9d8279c1c4f605c28b97c640b7:index.php
                             }
                             ?>
                         </div>

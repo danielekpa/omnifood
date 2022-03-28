@@ -8,7 +8,11 @@
 
     // Check the data.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+<<<<<<< HEAD
         header("Location: http://www.webdesigncourse.co/omnifood/index.php?success=-1#form");
+=======
+        header("Location: https://danielekpa.github.io/omnifood/index.php?success=1#form");
+>>>>>>> 39de071fe587fc9d8279c1c4f605c28b97c640b7
         exit;
     }
 
@@ -30,6 +34,10 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
+<<<<<<< HEAD
     header("Location: http://www.webdesigncourse.co/omnifood/index.php?success=1#form");
+=======
+    header("Location: https://danielekpa.github.io/omnifood/index.php?success=1#form");
+>>>>>>> 39de071fe587fc9d8279c1c4f605c28b97c640b7
 
 ?>
